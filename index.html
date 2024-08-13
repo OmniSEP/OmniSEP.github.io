@@ -645,7 +645,7 @@ The scaling up has brought tremendous success in the fields of vision and langua
           <br>
           <h1 id="AudioSep" class="title is-3">D.AudioSep with Query-Aug.</h1>
               <tr>
-                  <span style="color: red;">* The AudioSep model adopted in this section is the official open-source version, trained on the datasets of over 14,000 hours audio samples.</span>
+                  <span style="color: red;">* The AudioSep model referenced in this section is the official open-source version, trained on the audio datasets of over 14,000 hours.</span>
               </tr>
               <div class="grid-container">
                   <table >
@@ -858,6 +858,46 @@ The scaling up has brought tremendous success in the fields of vision and langua
                   </table>
               </div>
 
+          <br>
+          <h1 id="AudioSep and Negative query" class="title is-3">F. AudioSep Vs. OmniSep + Negative-Query.</h1>
+
+              <div class="grid-container">
+                  <table >
+                      <tr >
+                        <th></th>
+                        <th>original video</th>
+                        <th>
+                            AudioSep
+                        </th>
+                        <th>
+                            OmniSep
+                        </th>
+                        <th>
+                            OmniSep + Negative-Query
+                        </th>
+
+                      </tr>
+
+
+                      <tr >
+                          <th style="width: 100px; vertical-align:middle;">
+                              Sample1
+                          </th>
+                          <th style="width: 300px; vertical-align:middle;">
+                              <video controls style="width: 300px;"><source src="res/real/sample2/ocean.mp4"></video>
+                          </th>
+                          <th style="width: 300px; vertical-align:middle;">
+                              <video controls style="width: 300px;"><source src="res/real/sample2/audiosep_man_speaking.mp4"></video>
+                          </th>
+                          <th style="width: 300px; vertical-align:middle;">
+                              <video controls style="width: 300px;"><source src="res/real/sample2/1_tqss.mp4"></video>
+                          </th>
+                          <th style="width: 300px; vertical-align:middle;">
+                              <video controls style="width: 300px;"><source src="res/real/sample2/2_neg.mp4"></video>
+                          </th>
+                      </tr>
+                  </table>
+              </div>
 
           </div>
       </div>
